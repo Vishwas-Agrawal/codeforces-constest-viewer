@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+a {
+  color: #2199df;
+  text-decoration: unset;
+}
+ul {
+  margin-left: 1.5rem;
+  list-style: none;
+}
+button,
+input[type="submit"] {
+  border: none;
+  background: none;
+  color: unset;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 1em 0;
+}
+#header {
+  display: flex;
+  background-color: #e24343;
+}
+#title {
+  margin: 0;
+}
+#styled-table {
+  border-collapse: separate;
+  margin: 25px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 5%;
+}
+#styled-table thead tr {
+  background-color: #01bb93;
+  color: #ffffff;
+  text-align: center;
+  height: 20px;
+}
